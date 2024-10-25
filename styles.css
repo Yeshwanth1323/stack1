@@ -1,0 +1,56 @@
+body{
+    background-color: bisque;
+}
+.odd{
+    color: blue;
+}
+
+h3{
+    border-style: dashed;
+}
+h4{
+    text-shadow: 3px 3px 3px red;
+}
+.box1{
+    background-color: rgb(64, 75, 75);
+    height: 100px;
+    width: 100px;
+    box-shadow: 3px 3px 5px;
+}
+.box{
+    border: 5px solid;
+    font-size: 2em;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+#box2{
+    background-color: blueviolet;
+    margin: auto;
+}
+#box3{
+    background-color: rgb(206, 198, 213);
+
+}
+
+
+div{
+    border: 2px solid;
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+    background-color: aqua;
+    
+}
+.container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:flex-end ;
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+}
+.item3{
+    flex:-1;
+    
+}
